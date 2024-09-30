@@ -1,18 +1,13 @@
 
-
-
 /**
  *
  * @author Shifaa
  */
 public class Persegi {
-
     int sisi,luas, keliling;
-
     public void setsisi(int sisi) {
         this.sisi = sisi;
     }
-
     public void setluas() {
         this.luas = sisi * sisi;
     }

@@ -10,8 +10,7 @@
  * @author coldp
  */
 public class Trapesium {
-    int sisiA,sisiB,Tinggi;
-    double luas,keliling;
+    double sisiA,sisiB,Tinggi,luas,keliling;
     
     public void setsisiA(int sisiA){
         this.sisiA = sisiA;
