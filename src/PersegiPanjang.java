@@ -3,40 +3,36 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-
 /**
  *
  * @author Aprilia
  */
 public class PersegiPanjang {
-    public class Persegi_Panjang {
-    int p,l,luas,keliling;
-    
+
+    int p, l, luas, keliling;
+
     public void setPanjang(int p) {
         this.p = p;
     }
-    
+
     public void setLebar(int L) {
-        this.l= L;
+        this.l = L;
     }
-    
+
     public void setLuas() {
         this.luas = p * l;
     }
-    
+
     public void setKeliling() {
-        this.keliling = 2 * (p+l);
-    } 
-    
+        this.keliling = 2 * (p + l);
+    }
+
     public int getLuas() {
         return luas;
     }
-    
+
     public int getKeliling() {
         return keliling;
     }
-        
-    
-}
-    
+
 }
