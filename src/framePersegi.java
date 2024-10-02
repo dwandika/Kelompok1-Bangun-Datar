@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Andika
+ * @author Shifa
  */
 public class framePersegi extends javax.swing.JFrame {
 
