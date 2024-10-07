@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+package frameBangundatar;
 
 /**
  *
@@ -50,7 +47,7 @@ public class mainFrame extends javax.swing.JFrame {
         });
 
         boxBangundatar.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        boxBangundatar.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Persegi", "Persegi panjang", "Lingkaran", "Segitiga", "Jajargenjang", "Trapesium" }));
+        boxBangundatar.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Persegi", "PersegiPanjang", "Lingkaran", "Segitiga", "Jajargenjang", "Trapesium" }));
 
         bExit.setBackground(new java.awt.Color(255, 0, 51));
         bExit.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
@@ -101,17 +98,36 @@ public class mainFrame extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void bGoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bGoActionPerformed
         String Bangun = boxBangundatar.getSelectedItem().toString();
-        
-         if (Bangun.equals("Lingkaran")) {
+
+        if (Bangun.equals("Lingkaran")) {
             new frameLingkaran().setVisible(true);
             dispose();
-        } else {
-           
-        } 
+        } else if (Bangun.equals("Persegi")) {
+            new framePersegi().setVisible(true);
+            dispose();
+
+        } else if (Bangun.equals("PersegiPanjang")) {
+            new framePersegiP().setVisible(true);
+            dispose();
+
+        } else if (Bangun.equals("Trapesium")) {
+            new FrameTrapesium().setVisible(true);
+            dispose();
+
+        } else if (Bangun.equals("Segitiga")) {
+            new frameSegitiga().setVisible(true);
+            dispose();
+
+        } else if (Bangun.equals("Jajargenjang")) {
+            new frameJajargenjang().setVisible(true);
+            dispose();
+
+        }
     }//GEN-LAST:event_bGoActionPerformed
 
     /**
