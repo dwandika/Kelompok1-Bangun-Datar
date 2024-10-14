@@ -8,10 +8,10 @@ package bangunDatar;
 
 /**
  *
- * @author ADMIN
+ * @author Zainal
  */
-public class jajargenjang {
-    int alas,tinggi,luas,keliling;
+public class jajargenjang extends BangunDatar{
+    int alas,tinggi;
     
     public void setAlas(int alas){
         this.alas=alas;
@@ -19,17 +19,14 @@ public class jajargenjang {
     public void setTinggi(int tinggi){
         this.tinggi=tinggi;
     }
+    @Override
     public void setLuas(){
-        this.luas= alas*tinggi;
+        this.Luas= alas*tinggi;
     }
+    @Override
     public void setKeliling(){
-        this.keliling=2*(alas+tinggi);
+        this.Keliling=2*(alas+tinggi);
     }
-    public int getLuas(){
-        return luas;
-    }
-    public int getKeliling(){
-        return keliling;
-    }
+   
     
 }

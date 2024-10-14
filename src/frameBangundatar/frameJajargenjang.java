@@ -213,7 +213,7 @@ public class frameJajargenjang extends javax.swing.JFrame {
 
     private void bBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bBackActionPerformed
         dispose();
-        new mainFrame().setVisible(true);
+        //new mainFrame().setVisible(true);
     }//GEN-LAST:event_bBackActionPerformed
 
     /**
