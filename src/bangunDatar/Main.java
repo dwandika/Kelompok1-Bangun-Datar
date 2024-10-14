@@ -37,8 +37,8 @@ public class Main {
         pr.setkeliling();
         
         System.out.println("----------------- PERSEGI -----------------");
-        System.out.println("Luas Persegi = "+pr.getluas());
-        System.out.println("Keliling Persegi = "+pr.getkeliling());
+        System.out.println("Luas Persegi = "+pr.getLuas());
+        System.out.println("Keliling Persegi = "+pr.getKeliling());
         System.out.println("-------------------------------------------\n\n");
         
         PersegiPanjang pp = new PersegiPanjang();

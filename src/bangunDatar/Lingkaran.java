@@ -9,9 +9,9 @@ package bangunDatar;
  *
  * @author Andika
  */
-public class Lingkaran {
+public class Lingkaran extends  BangunDatar{
     
-    double diameter,r,luas,keliling;
+    double diameter,r;
     
     public void setDiameter(double diameter){
     this.diameter = diameter;
@@ -19,16 +19,12 @@ public class Lingkaran {
     public void setJari(){
     this.r = diameter / 2;
     }
+    @Override
     public void setLuas(){
-        this.luas = Math.PI *r*r;
+        this.Luas = Math.PI *r*r;
     }
     public void seKeliling(){
-    this.keliling = Math.PI*diameter;
+    this.Keliling = Math.PI*diameter;
     }
-    public double getLuas(){
-        return luas;
-    }
-    public double getKeliling(){
-    return keliling;
-    }
+    
 }
