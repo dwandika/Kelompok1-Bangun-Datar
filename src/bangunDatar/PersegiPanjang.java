@@ -10,26 +10,23 @@ package bangunDatar;
  *
  * @author Aprilia
  */
-public class PersegiPanjang {
-    int p,l,luas,keliling;
+public class PersegiPanjang extends BangunDatar{
+    int p,l;
     public void setPanjang(int p) {
         this.p = p;
     }
     public void setLebar(int L) {
         this.l= L;
     }
+    @Override
     public void setLuas() {
-        this.luas = p * l;
+        this.Luas = p * l;
     }
+    @Override
     public void setKeliling() {
-        this.keliling = 2 * (p+l);
+        this.Keliling = 2 * (p+l);
     } 
-    public int getLuas() {
-        return luas;
-    }
-    public int getKeliling() {
-        return keliling;
-    }
+  
 }
     
 
