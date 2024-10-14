@@ -11,8 +11,8 @@ package bangunDatar;
  *
  * @author coldp
  */
-public class Trapesium {
-    double sisiA,sisiB,Tinggi,luas,keliling;
+public class Trapesium extends BangunDatar{
+    double sisiA,sisiB,Tinggi;
     
     public void setsisiA(int sisiA){
         this.sisiA = sisiA;
@@ -24,15 +24,10 @@ public class Trapesium {
         this.Tinggi = Tinggi;
     }
     public void setkeliling(){
-        this.keliling = sisiA + sisiB + sisiA + sisiB;
+        this.Keliling = sisiA + sisiB + sisiA + sisiB;
     }  
     public void setluas(){
-        this.luas = 0.5*(sisiA+sisiB)*Tinggi;
+        this.Luas = 0.5*(sisiA+sisiB)*Tinggi;
     }
-    public double getluas(){
-        return luas;
-    }
-    public double getkeliling(){
-        return keliling;
-    }
+   
 }
