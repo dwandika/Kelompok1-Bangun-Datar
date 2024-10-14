@@ -3,10 +3,10 @@ package bangunDatar;
 
 /**
  *
- * @author MyBook Hype
+ * @author Yusup
  */
-public class Segitiga {
-    double Sisi, alas, tinggi, luas, keliling;
+public class Segitiga extends BangunDatar{
+    double Sisi, alas, tinggi;
     public void setSisi(double sisi) {
         this.Sisi = sisi;
     }
@@ -16,16 +16,13 @@ public class Segitiga {
     public void setTinggi(double tinggi) {
         this.tinggi = tinggi;
     }
+    @Override
     public void setLuas() {
-        this.luas = 0.5 * alas * tinggi;
+        this.Luas = 0.5 * alas * tinggi;
     }
+    @Override
     public void setKeliling() {
-        this.keliling = Sisi + Sisi + Sisi;
+        this.Keliling = Sisi + Sisi + Sisi;
     }
-    public double getLuas() {
-        return luas;
-    }
-    public double getKeliling() {
-        return keliling;
-    }
+   
 }

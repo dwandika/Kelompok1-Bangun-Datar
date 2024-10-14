@@ -219,7 +219,7 @@ public final class frameSegitiga extends javax.swing.JFrame {
 
     private void bBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bBackActionPerformed
         dispose();
-        new mainFrame().setVisible(true);
+       // new mainFrame().setVisible(true);
     }//GEN-LAST:event_bBackActionPerformed
 
     private void tAlasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tAlasActionPerformed
