@@ -219,8 +219,8 @@ public class FrameTrapesium extends javax.swing.JFrame {
         t.setluas();
         t.setkeliling();
 
-        vLuas.setText(String.valueOf(t.getluas()));
-        vKeliling.setText(String.valueOf(t.getkeliling()));
+        vLuas.setText(String.valueOf(t.getLuas()));
+        vKeliling.setText(String.valueOf(t.getKeliling()));
     }//GEN-LAST:event_bHitungActionPerformed
 
     private void bBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bBackActionPerformed

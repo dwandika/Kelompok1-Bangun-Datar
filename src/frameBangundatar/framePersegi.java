@@ -184,8 +184,8 @@ public class framePersegi extends javax.swing.JFrame {
         pr.setluas();
         pr.setkeliling();
 
-        vLuas.setText(String.valueOf(pr.getluas()));
-        vKeliling.setText(String.valueOf(pr.getkeliling()));
+        vLuas.setText(String.valueOf(pr.getLuas()));
+        vKeliling.setText(String.valueOf(pr.getKeliling()));
     }//GEN-LAST:event_bHitungActionPerformed
 
     private void bBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bBackActionPerformed

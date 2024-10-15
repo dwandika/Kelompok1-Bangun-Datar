@@ -60,8 +60,8 @@ public class Main {
         tp.setkeliling();
         
         System.out.println("---------------- TRAPESIUM ----------------");
-        System.out.println("Luas Trapesium = "+tp.getluas());
-        System.out.println("Keliling Trapesium =  "+tp.getkeliling());
+        System.out.println("Luas Trapesium = "+tp.getLuas());
+        System.out.println("Keliling Trapesium =  "+tp.getKeliling());
         System.out.println("-------------------------------------------\n\n");
         
         jajargenjang jj = new jajargenjang();
